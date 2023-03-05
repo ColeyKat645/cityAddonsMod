@@ -1,0 +1,70 @@
+{
+  "mod_elements": [
+    {
+      "name": "PoopMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poop_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Poop",
+      "type": "fluid",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poop",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "WaterToPoop",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_to_poop"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "fluid.city_addons.poop": "Poop",
+      "item.city_addons.poop_bucket": "Bucket Of Poop",
+      "block.city_addons.poop": "Poop"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "city_addons",
+    "modName": "City Addons",
+    "version": "1.0.0",
+    "author": "jbren, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.cityaddons",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

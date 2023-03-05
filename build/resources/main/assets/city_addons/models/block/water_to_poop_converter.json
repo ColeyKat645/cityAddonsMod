@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "city_addons:blocks/toilettexure",
+    "top": "city_addons:blocks/toilettexure",
+    "side": "city_addons:blocks/toilettexure"
+  },
+  "render_type": "solid"
+}
