@@ -70,6 +70,17 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "water_to_poop_converter"
+    },
+    {
+      "name": "Oil",
+      "type": "fluid",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil",
+      "metadata": {
+        "gb": true
+      }
     }
   ],
   "variable_elements": [],
@@ -78,7 +89,10 @@
     "en_us": {
       "fluid.city_addons.poop": "Poop",
       "block.city_addons.water_to_poop_converter": "Water To Poop Converter",
+      "item.city_addons.oil_bucket": "Oil Bucket",
       "item.city_addons.poop_bucket": "Bucket Of Poop",
+      "block.city_addons.oil": "Oil",
+      "fluid.city_addons.oil": "Oil",
       "block.city_addons.poop": "Poop"
     }
   },
